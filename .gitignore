@@ -1,0 +1,69 @@
+# ==============================================
+# Keil MDK-ARM — build output directory
+# ==============================================
+soil/MDK-ARM/soil/
+
+# ==============================================
+# Keil MDK-ARM — generated / auto-managed
+# ==============================================
+soil/MDK-ARM/RTE/
+soil/MDK-ARM/DebugConfig/
+soil/MDK-ARM/EventRecorderStub.scvd
+
+# Keil user-specific GUI / option files
+soil/MDK-ARM/*.uvguix*
+soil/MDK-ARM/*.uvoptx
+soil/MDK-ARM/*.uvopt
+
+# ==============================================
+# Compiled object files
+# ==============================================
+*.o
+*.obj
+
+# ==============================================
+# Compiler dependency files
+# ==============================================
+*.d
+
+# ==============================================
+# Keil ARM linker / build artefacts
+# ==============================================
+*.axf
+*.hex
+*.iex
+*.lnp
+*.map
+*.dep
+*.htm
+*.build_log.htm
+*.crf
+*.lst
+*.elf
+*.bin
+
+# ==============================================
+# OS generated files
+# ==============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==============================================
+# Editor / IDE files
+# ==============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+*.sublime-project
+*.sublime-workspace
