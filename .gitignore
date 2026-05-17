@@ -1,3 +1,6 @@
+# ===== Keil MDK-ARM (local dev only) =====
+MDK-ARM/
+
 # ===== Build outputs =====
 *.o
 *.d
