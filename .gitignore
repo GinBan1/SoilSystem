@@ -1,69 +1,41 @@
-# ==============================================
-# Keil MDK-ARM — build output directory
-# ==============================================
-soil/MDK-ARM/soil/
-
-# ==============================================
-# Keil MDK-ARM — generated / auto-managed
-# ==============================================
-soil/MDK-ARM/RTE/
-soil/MDK-ARM/DebugConfig/
-soil/MDK-ARM/EventRecorderStub.scvd
-
-# Keil user-specific GUI / option files
-soil/MDK-ARM/*.uvguix*
-soil/MDK-ARM/*.uvoptx
-soil/MDK-ARM/*.uvopt
-
-# ==============================================
-# Compiled object files
-# ==============================================
+# ===== Build outputs =====
 *.o
-*.obj
-
-# ==============================================
-# Compiler dependency files
-# ==============================================
 *.d
-
-# ==============================================
-# Keil ARM linker / build artefacts
-# ==============================================
 *.axf
 *.hex
-*.iex
-*.lnp
-*.map
-*.dep
-*.htm
-*.build_log.htm
-*.crf
-*.lst
 *.elf
 *.bin
+*.map
+*.lst
+*.crf
+*.dep
+*.htm
+*.lnp
+*.iex
+*.sct
+*.scvd
+*.build_log.htm
 
-# ==============================================
-# OS generated files
-# ==============================================
+# ===== Keil MDK-ARM =====
+MDK-ARM/soil/
+MDK-ARM/RTE/
+MDK-ARM/DebugConfig/
+*.uvoptx
+*.uvopt
+*.uvguix*
+
+# ===== STM32CubeMX =====
+.mxproject
+
+# ===== OS =====
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# ==============================================
-# Editor / IDE files
-# ==============================================
+# ===== Editors =====
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-*.bak
-*.orig
-*.sublime-project
-*.sublime-workspace
